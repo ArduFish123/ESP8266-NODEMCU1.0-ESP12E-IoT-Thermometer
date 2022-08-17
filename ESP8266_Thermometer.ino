@@ -36,7 +36,7 @@
 #define BLYNK_TEMPLATE_ID   "Template ID"
 #define BLYNK_DEVICE_NAME "Device name"
 #define BLYNK_FIRMWARE_VERSION "x.x.x"
-#define dht_apin 5 // Digital Pin sensor is connected too
+#define dht_apin 5 // GPIO Pin sensor is connected too (GPIO 5 is D1 on NodeMCU 1.0 ESP12E)
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266_SSL.h>
 #include <dht.h>
