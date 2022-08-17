@@ -33,9 +33,9 @@
 #define BLYNK_PRINT Serial
 
 /* Fill-in your Template ID (only if using Blynk.Cloud) */
-#define BLYNK_TEMPLATE_ID   "TMPLVdEVoqXq"
-#define BLYNK_DEVICE_NAME "Thermometer"
-#define BLYNK_FIRMWARE_VERSION "4.0.1"
+#define BLYNK_TEMPLATE_ID   "Template ID"
+#define BLYNK_DEVICE_NAME "Device name"
+#define BLYNK_FIRMWARE_VERSION "x.x.x"
 #define dht_apin 5 // Digital Pin sensor is connected too
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266_SSL.h>
@@ -45,12 +45,12 @@ dht DHT;
 
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
-char auth[] = "N9tFHyNm7VypV4pqSJGtEPp4AlcpvEGw";
+char auth[] = "Auth Token";
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "TP-Link_592C";
-char pass[] = "06680916";
+char ssid[] = "Wifi name";
+char pass[] = "WiFi pass";
 
 BLYNK_WRITE(InternalPinOTA) {
   String url = param.asString();
