@@ -28,7 +28,7 @@
   Change WiFi ssid, pass, and Blynk auth token to run :)
   Feel free to apply it to any other example. It's simple!
  *************************************************************/
-
+#include "Arduino.h"
 /* Comment this out to disable prints and save space */
 #define BLYNK_PRINT Serial
 
